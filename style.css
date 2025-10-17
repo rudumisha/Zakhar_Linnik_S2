@@ -1,0 +1,138 @@
+body {
+    background-color: #ccffcc;
+    font-family: "Georgia", serif;
+    margin: 15px;
+}
+
+header {
+    background-color: #3366ff;
+    padding: 15px;
+    border: 5px solid #ff6600;
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    border: 3px solid white;
+    background-color: white;
+    padding: 5px;
+}
+
+.button {
+    background-color: #ff3366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #66cc66;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: center;
+    border: 3px dashed #3366ff;
+}
+
+.nav-link {
+    color: #003366;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffff99;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 2px solid #ff6600;
+}
+
+h1 {
+    color: #cc0000;
+    text-align: left;
+    font-size: 32px;
+    background-color: #ffff99;
+    padding: 15px;
+    border: 4px double #cc0000;
+    margin: 20px 0;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+article {
+    background-color: #e6f7ff;
+    width: 300px;
+    padding: 20px;
+    border: 4px solid #3366ff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: #0066cc;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: #ffeb99;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+img {
+    border: 3px solid #ff6600;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.article-but {
+    background-color: #009900;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid #006600;
+}
+
+footer {
+    background-color: #663399;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border: 5px solid #ffcc00;
+}
+
+footer a {
+    margin: 0 10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #ff6600;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+main > img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #cc0000;
+    background-color: white;
+    padding: 10px;
+}
